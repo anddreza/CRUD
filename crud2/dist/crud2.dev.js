@@ -10,14 +10,19 @@ var closeModal = function closeModal() {
 };
 
 var tempClient = {
-  nome: "Andreza",
-  email: "andrezasilva744@gmail.com",
+  nome: "Ana",
+  email: "ana@gmail.com",
   celular: "+550929999-9999",
   cidade: "São Roque"
 }; // CRUD 
 
 var createClient = function createClient(client) {
-  localStorage.setIte("db_client", JSON.stringify(client));
+  var db_client = JSON.parse(localStorage.getItem('db_client')); //pega o que tem no banco de dados localStorage, transforma em json e armazena numa variavel chamada db_client
+
+  console.log(db_client);
+  db_client.push(client); // acrescenta mais um (Push), o client, esse client chegou pelo parâmetro
+
+  localStorage.setIte("db_client", JSON.stringify(db_client)); // mandar de novo para meu banco, informando o db_client, seria nesse a key, e o value seria JSON.stringfy (db_client)
 }; // Eventos 
 
 

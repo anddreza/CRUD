@@ -20,6 +20,24 @@ A instrução UPDATE é usada para UPDATE
 A instrução DELETE é usada para DELETE. 
 https://www.crowdstrike.com/cybersecurity-101/observability/crud/
 
+# Alto nível 
+Em um alto nível, os aplicativos CRUD consistem em três partes; banco de dados, interface do usuário e APIs.
+https://budibase.com/blog/crud-app/
+
+# Como descrever requisitos Não funcionais 
+https://blog.betrybe.com/tecnologia/requisitos-nao-funcionais/
+ E quais tipos de requisitos funcionais? 
+1. Tratamento de transações;
+2. Regras do negócio;
+3. Requisitos de certificação;
+4. Requisitos de relatórios;
+5. Funções administrativas;
+6. Níveis de autorização;
+7. Acompanhamento de auditoria;
+8. Interfaces externas;
+9. Gerenciamento de dados históricos;
+10. Requisitos Legais e Regulamentares.
+
 
 ---------------------------------------------------------------------
 O CRUD utilizado para teste será um cadastro de cliente e para isso será usado a linguagem Javascript, que seria a mais fácil para elaborar. Então para início seria usada 
