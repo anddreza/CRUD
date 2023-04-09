@@ -1,0 +1,25 @@
+O que significa CRUD? É o acrônimo de C(create), R (read), U(update), D(delete)
+https://blog.betrybe.com/tecnologia/crud-operacoes-basicas/
+
+
+Você pode criar um aplicativo CRUD com qualquer uma das linguagens de programação existentes. E o aplicativo não precisa ser full stack – você pode criar um aplicativo CRUD com JavaScript do lado do cliente.
+https://www.freecodecamp.org/news/crud-operations-explained/
+
+
+# Não seria interessante para mim realizar tudo no crud2.js
+https://github.com/WilliamDosSantos/CRUD-JavaScript
+
+# Utilizando para escrever o crud.js
+
+https://www.youtube.com/watch?v=5I4W0Mtcfqo&list=TLPQMDkwNDIwMjP5WQyyu5SYRQ&index=1&ab_channel=MarioSouto-DevSoutinho
+
+# Como o CRUD é executado em um banco de dados? 
+A instrução INSERT é usada para CREATE
+A instrução SELECT é usada para READ
+A instrução UPDATE é usada para UPDATE
+A instrução DELETE é usada para DELETE. 
+https://www.crowdstrike.com/cybersecurity-101/observability/crud/
+
+
+---------------------------------------------------------------------
+O CRUD utilizado para teste será um cadastro de cliente e para isso será usado a linguagem Javascript, que seria a mais fácil para elaborar. Então para início seria usada 
